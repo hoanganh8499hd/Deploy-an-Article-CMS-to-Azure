@@ -13,7 +13,16 @@
             Region: West US, Operating system: Windows, Tier: Basic
             INSTANCE: B1: 1 Cores(s), 1.75 GB RAM, 10 GB Storage, $0.075 and used 730 hours
             No SSL Connections
-    
+
+    Scalability:
+        App Services can dynamic scaling without config manual, when use VM, you have to config manually and manage scaling .
+
+    Availability:
+        App Service and VM can both provide high availability. App Service is build-in feature and dynamic. VM requires properly configured and management.
+
+    Workflow:  
+        You have more control and config about the underlying infrastructure with VM. With App Service, you can focus more on the application code and it's simpler.
+
 - *Choose the appropriate solution (VM or App Service) for deploying the app*
 - *Justify your choice*
     I choose App Service for my project CMS app because this is uncomplicated and lightweight cms app. Furthermore, App Service offers a more cost-effective solution in my case and i don't need to control and config about the underlying infrastructure.
